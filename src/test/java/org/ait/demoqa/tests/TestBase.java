@@ -12,17 +12,16 @@ public class TestBase {
     WebDriver driver;
 
     @BeforeMethod
-    public void init(){
+    public void init() {
         driver = new ChromeDriver();
-        driver.get("https://demoqa.com/");
-        driver.manage().window().maximize();//разворачиваем на весь экран
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //время ожидания
-
+        //driver.get("https://demoqa.com");
+        driver.get("http://the-internet.herokuapp.com");
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
     }
 
     @AfterMethod(enabled = false)
     public void tearDown() {
         driver.quit();
     }
-
 }

@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fad0eefb-71e3-4f30-85da-c98e52a52305" name="Changes" comment="" />
+    <list default="true" id="fad0eefb-71e3-4f30-85da-c98e52a52305" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/TestBase.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,20 +20,131 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2VaFpX5Qqfallkl15dhSZDbMx26" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/QAGit/QA25_Demoqa_POM/src/main/java/org/ait/demoqa/pages&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.ait.demoqa.pages" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.AlertTests.sendMessageToAlertTest">
+    <configuration name="AlertTests.acceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.AlertTests" />
+      <option name="METHOD_NAME" value="acceptAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AlertTests.sendMessageToAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.AlertTests" />
+      <option name="METHOD_NAME" value="sendMessageToAlertTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.LoginPageTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginPageTests.loginPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.LoginPageTests" />
+      <option name="METHOD_NAME" value="loginPositiveTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SearchBookTests.searchBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.SearchBookTests" />
+      <option name="METHOD_NAME" value="searchBookTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.AlertTests.sendMessageToAlertTest" />
+        <item itemvalue="TestNG.AlertTests.acceptAlert" />
+        <item itemvalue="TestNG.SearchBookTests.searchBookTest" />
+        <item itemvalue="TestNG.LoginPageTests.loginPositiveTest" />
+        <item itemvalue="TestNG.LoginPageTests" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,5 +155,16 @@
       <updated>1695066472979</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
