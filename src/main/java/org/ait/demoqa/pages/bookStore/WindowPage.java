@@ -1,6 +1,7 @@
-package org.ait.demoqa.pages;
+package org.ait.demoqa.pages.bookStore;
 
 
+import org.ait.demoqa.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -9,7 +10,7 @@ import org.testng.Assert;
 import java.util.ArrayList;
 import java.util.List;
 
-public class WindowPage extends BasePage{
+public class WindowPage extends BasePage {
 
     public WindowPage(WebDriver driver) {
         super(driver);

@@ -1,10 +1,11 @@
-package org.ait.demoqa.pages;
+package org.ait.demoqa.pages.bookStore;
 
+import org.ait.demoqa.pages.BasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class LoginPage extends BasePage{
+public class LoginPage extends BasePage {
 
     public LoginPage(WebDriver driver) { //alt+Enter, создания конструктора
         super(driver);
@@ -19,7 +20,7 @@ public class LoginPage extends BasePage{
     @FindBy(id = "login")
     WebElement loginButton;
 
-    public ProfilePage login(String userName,String password){// метод чтобы попасть на ProfilePage, возвращает профайл странички
+    public ProfilePage login(String userName, String password){// метод чтобы попасть на ProfilePage, возвращает профайл странички
         typeWithJSExecutor(userNameField,userName, 0, 200);
         type(passwordField,password);
         click(loginButton);

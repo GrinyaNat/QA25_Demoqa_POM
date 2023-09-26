@@ -1,10 +1,10 @@
-package org.ait.demoqa.pages;
+package org.ait.demoqa.pages.bookStore;
 
+import org.ait.demoqa.pages.BasePage;
 import org.openqa.selenium.NoAlertPresentException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;

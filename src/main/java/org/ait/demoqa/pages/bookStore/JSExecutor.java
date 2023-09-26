@@ -1,9 +1,10 @@
-package org.ait.demoqa.pages;
+package org.ait.demoqa.pages.bookStore;
 
+import org.ait.demoqa.pages.BasePage;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 
-public class JSExecutor extends BasePage{
+public class JSExecutor extends BasePage {
 
     JavascriptExecutor js;
 

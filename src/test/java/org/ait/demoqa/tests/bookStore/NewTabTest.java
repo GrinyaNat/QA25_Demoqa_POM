@@ -1,8 +1,9 @@
-package org.ait.demoqa.tests;
+package org.ait.demoqa.tests.bookStore;
 
 
 import org.ait.demoqa.pages.HomePage;
-import org.ait.demoqa.pages.WindowPage;
+import org.ait.demoqa.pages.bookStore.WindowPage;
+import org.ait.demoqa.tests.TestBase;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 

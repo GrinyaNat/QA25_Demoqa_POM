@@ -6,6 +6,21 @@
   <component name="ChangeListManager">
     <list default="true" id="fad0eefb-71e3-4f30-85da-c98e52a52305" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/AlertsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/BasePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/BookStorePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/BookStorePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/JSExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/JSExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/ProfilePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/ProfilePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/SidePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/SidePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/UserData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/UserData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/WindowPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/ait/demoqa/pages/bookStore/WindowPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/bookStore/AlertTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/JSExecutorTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/bookStore/JSExecutorTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/LoginPageTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/bookStore/LoginPageTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/NewTabTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/bookStore/NewTabTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/SearchBookTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/bookStore/SearchBookTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/ait/demoqa/tests/TestBase.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,56 +57,21 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.ait.demoqa.elements" />
       <recent name="org.ait.demoqa.pages" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests.sendMessageToAlertTest">
-    <configuration name="AlertTests.acceptAlert" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.LinksTests.checkBrokenImages">
+    <configuration name="AddBookToCollectionTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA25_Demoqa_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="PATTERN" value="org.ait.demoqa.tests.bookStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.AlertTests" />
-      <option name="METHOD_NAME" value="acceptAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.sendMessageToAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA25_Demoqa_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.AlertTests" />
-      <option name="METHOD_NAME" value="sendMessageToAlertTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginPageTests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="QA25_Demoqa_POM" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.LoginPageTests" />
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests.bookStore" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.bookStore.AddBookToCollectionTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -99,17 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginPageTests.loginPositiveTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddBookToCollectionTests.addBookToCollectionTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA25_Demoqa_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="PATTERN" value="org.ait.demoqa.tests.bookStore.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.LoginPageTests" />
-      <option name="METHOD_NAME" value="loginPositiveTest" />
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests.bookStore" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.bookStore.AddBookToCollectionTests" />
+      <option name="METHOD_NAME" value="addBookToCollectionTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -117,17 +97,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchBookTests.searchBookTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="LinksTests.checkBrokenImages" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="QA25_Demoqa_POM" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.ait.demoqa.tests.*" />
+          <option name="PATTERN" value="org.ait.demoqa.tests.elements.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests" />
-      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.SearchBookTests" />
-      <option name="METHOD_NAME" value="searchBookTest" />
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.elements.LinksTests" />
+      <option name="METHOD_NAME" value="checkBrokenImages" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinksTests.checkBrokenLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.elements.LinksTests" />
+      <option name="METHOD_NAME" value="checkBrokenLinksTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinksTests.getAllLinksTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="QA25_Demoqa_POM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.ait.demoqa.tests.elements.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.ait.demoqa.tests.elements" />
+      <option name="MAIN_CLASS_NAME" value="org.ait.demoqa.tests.elements.LinksTests" />
+      <option name="METHOD_NAME" value="getAllLinksTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -137,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.AlertTests.sendMessageToAlertTest" />
-        <item itemvalue="TestNG.AlertTests.acceptAlert" />
-        <item itemvalue="TestNG.SearchBookTests.searchBookTest" />
-        <item itemvalue="TestNG.LoginPageTests.loginPositiveTest" />
-        <item itemvalue="TestNG.LoginPageTests" />
+        <item itemvalue="TestNG.LinksTests.checkBrokenImages" />
+        <item itemvalue="TestNG.LinksTests.checkBrokenLinksTest" />
+        <item itemvalue="TestNG.LinksTests.getAllLinksTest" />
+        <item itemvalue="TestNG.AddBookToCollectionTests.addBookToCollectionTest" />
+        <item itemvalue="TestNG.AddBookToCollectionTests" />
       </list>
     </recent_temporary>
   </component>

@@ -1,5 +1,8 @@
 package org.ait.demoqa.pages;
 
+import org.ait.demoqa.pages.bookStore.AlertsPage;
+import org.ait.demoqa.pages.bookStore.JSExecutor;
+import org.ait.demoqa.pages.bookStore.WindowPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -41,6 +44,14 @@ public class HomePage extends BasePage {
     public JSExecutor getFormAuthentication() {
         click(formLink);
         return new JSExecutor(driver);
+    }
+
+    @FindBy(css = ".top-card:nth-child(1)")
+    WebElement elements;
+
+    public SidePanel getElements() { //попадаем в боковую панель
+        clickWithJSExecutor(elements, 0, 200);
+        return new SidePanel(driver);
     }
 }
 
