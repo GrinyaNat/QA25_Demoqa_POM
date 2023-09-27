@@ -49,8 +49,16 @@ public class HomePage extends BasePage {
     @FindBy(css = ".top-card:nth-child(1)")
     WebElement elements;
 
-    public SidePanel getElements() { //попадаем в боковую панель
-        clickWithJSExecutor(elements, 0, 200);
+    public SidePanel getElements() {
+        clickWithJSExecutor(elements,0,200);
+        return new SidePanel(driver);
+
+    }
+
+    @FindBy(css = "//a[.='Broken Images')]")
+    WebElement brokenImages;
+    public SidePanel getBrokenImages() {
+        clickWithJSExecutor(brokenImages,0,200);
         return new SidePanel(driver);
     }
 }

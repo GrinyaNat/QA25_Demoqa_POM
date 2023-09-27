@@ -11,6 +11,7 @@ import java.util.List;
 public class BrokenLinksImagesPage extends BasePage {
 
     public BrokenLinksImagesPage(WebDriver driver) {
+
         super(driver);
     }
     @FindBy(tagName = "img")

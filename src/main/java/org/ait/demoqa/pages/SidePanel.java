@@ -1,5 +1,6 @@
 package org.ait.demoqa.pages;
 
+import org.ait.demoqa.elements.BrokenImagesPage;
 import org.ait.demoqa.elements.BrokenLinksImagesPage;
 import org.ait.demoqa.elements.LinksPage;
 import org.ait.demoqa.pages.bookStore.BookStorePage;
@@ -41,5 +42,12 @@ public class SidePanel extends BasePage{
     public BrokenLinksImagesPage selectBrokenLinksImages() {
         clickWithJSExecutor(brokenLinksImages, 0, 300);
         return new BrokenLinksImagesPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Broken Images']")
+    WebElement brokenImages;
+    public BrokenImagesPage selectBrokenImages() {
+        clickWithJSExecutor(brokenImages, 0, 300);
+        return new BrokenImagesPage(driver);
     }
 }
